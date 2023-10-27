@@ -10,7 +10,7 @@ class _HomePageState extends State<HomePage> {
   static const Color textColor = Color(0xFF8BC34A);
 
   static const Map<String, String> itemImages = {
-    'Carne': 'https://i.postimg.cc/BXZ5JKj3/carne.png',
+    'Carne': 'assets/carne.png'
     'Leite': 'https://i.postimg.cc/RqBQb89N/caixa-de-leite.png',
     'Feijão': 'https://i.postimg.cc/7Cz0K1W3/sopa-de-feijao-vermelho.png',
     'Arroz': 'https://i.postimg.cc/FYBY5fLT/arroz-1.png',
