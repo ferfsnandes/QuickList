@@ -22,7 +22,7 @@ class ShoppingListApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/register': (context) => RegisterPage(),
         '/home': (context) => HomePage(),
-        // '/passwordRetrieve': (context) => PasswordRetrieve(),Reuperação de senha Sera implementado posteriormente
+        '/passwordRetrieve': (context) => PasswordRetrieve(),
       },
     );
   }
