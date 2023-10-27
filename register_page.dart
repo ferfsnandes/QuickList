@@ -148,3 +148,41 @@ class _RegisterPageState extends State<RegisterPage> {
       ),
     );
   }
+ Widget buildField({
+    required String labelText,
+    required String validatorText,
+    required Color color,
+  }) {
+    return TextFormField(
+      decoration: InputDecoration(
+        labelText: labelText,
+        labelStyle: TextStyle(
+          color: color,
+          fontSize: 15,
+          fontFamily: 'Poppins',
+          fontWeight: FontWeight.w600,
+        ),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.all(Radius.circular(10)),
+          borderSide: BorderSide(
+            width: 1,
+            color: color,
+          ),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: BorderRadius.all(Radius.circular(10)),
+          borderSide: BorderSide(
+            width: 1,
+            color: color,
+          ),
+        ),
+      ),
+      validator: (value) {
+        if (value == null || value.isEmpty) {
+          return validatorText;
+        }
+        return null;
+      },
+    );
+  }
+}
