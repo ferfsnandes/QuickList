@@ -12,19 +12,19 @@ class _HomePageState extends State<HomePage> {
   static const Color textColor = Color(0xFF8BC34A);
 
   static const Map<String, String> itemImages = {
-    'Carne': 'assets/carne.png'
-    'Leite': 'https://i.postimg.cc/RqBQb89N/caixa-de-leite.png',
-    'Feijão': 'https://i.postimg.cc/7Cz0K1W3/sopa-de-feijao-vermelho.png',
-    'Arroz': 'https://i.postimg.cc/FYBY5fLT/arroz-1.png',
-    'Farinha': 'https://i.postimg.cc/DS8qX3QY/farinha.png',
-    'Batata': 'https://i.postimg.cc/DJVm0t5s/batata.png',
-    'Tomate': 'https://i.postimg.cc/G8JYCLr9/tomate.png',
-    'Pão': 'https://i.postimg.cc/TKFnjNC2/pao.png',
-    'Café': 'https://i.postimg.cc/qgxXfLMQ/coffee-590749.png',
-    'Banana': 'https://i.postimg.cc/DJq0XBYN/banana-2083677.png',
-    'Açúcar': 'https://i.postimg.cc/0MqmF6TL/sugar-4509420.png',
-    'Óleo': 'https://i.postimg.cc/t4v0L0v1/5037447.png',
-    'Manteiga': 'https://i.postimg.cc/rRMmCxBw/butter-8490572.png',
+     'Carne': 'assets/carne.png'
+    'Leite': 'assets/caixa-de-leite.png',
+    'Feijão': 'assets/sopa-de-feijao-vermelho.png',
+    'Arroz': 'assets/arroz-1.png',
+    'Farinha': 'assets/farinha.png',
+    'Batata': 'assets/batata.png',
+    'Tomate': 'assets/tomate.png',
+    'Pão': 'assets/pao.png',
+    'Café': 'assets/coffee-590749.png',
+    'Banana': 'assets/banana-2083677.png',
+    'Açúcar': 'assets/sugar-4509420.png',
+    'Óleo': 'assets/5037447.png',
+    'Manteiga': 'assets/butter-8490572.png',
   };
 
   List<String> selectedItems = [];
