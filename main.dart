@@ -4,7 +4,12 @@ import 'login_page.dart';
 import 'register_page.dart';
 import 'home_page.dart';
 
-void main() => runApp(ShoppingListApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(ShoppingListApp());
+}
+
 
 class ShoppingListApp extends StatelessWidget {
   @override
