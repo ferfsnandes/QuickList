@@ -1,7 +1,30 @@
-# QuickList Based on Flutter 3.13.4 Dart SDK 3.1.2
-Um aplicativo prático de lista de compras que permite aos usuários criar e gerenciar suas listas de compras de forma eficiente.
-Os usuários podem adicionar itens com quantidades e categorias específicas, marcar itens como comprados, definir prioridades e até mesmo receber lembretes quando estiverem próximos a lojas. A sincronização entre dispositivos garante o acesso às listas em qualquer lugar. o usuário também poderia consultar os preços dos itens nos mercados se sua região.
-Based on Flutter 3.13.4 Dart SDK 3.1.2
+# flutter_application_1
 
+A new Flutter project.
 
+## Getting Started
 
+This project is a starting point for a Flutter application that follows the
+[simple app state management
+tutorial](https://flutter.dev/docs/development/data-and-backend/state-mgmt/simple).
+
+For help getting started with Flutter development, view the
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+## Assets
+
+The `assets` directory houses images, fonts, and any other files you want to
+include with your application.
+
+The `assets/images` directory contains [resolution-aware
+images](https://flutter.dev/docs/development/ui/assets-and-images#resolution-aware).
+
+## Localization
+
+This project generates localized messages based on arb files found in
+the `lib/src/localization` directory.
+
+To support additional languages, please visit the tutorial on
+[Internationalizing Flutter
+apps](https://flutter.dev/docs/development/accessibility-and-localization/internationalization)
